@@ -1,3 +1,11 @@
+# About this fork
+
+This fork is just intended for fixing issues I find in official dropbox-sdk-java. 
+
+No promise of maintenance over time.
+
+[Javadoc.](http://dropbox.github.io/dropbox-sdk-java/api-docs/v2.0.x/)
+
 # Dropbox Core SDK for Java 6+
 
 A Java library to access [Dropbox's HTTP-based Core API v2](https://www.dropbox.com/developers/documentation/http/documentation).  This SDK also supports the older [Core API v1](https://www.dropbox.com/developers-v1/core/docs), but that support will be removed at some point.
