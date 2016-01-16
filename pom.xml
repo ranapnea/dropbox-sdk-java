@@ -15,9 +15,9 @@
 
     <url>https://www.dropbox.com/developers/core</url>
     <scm>
-        <connection>scm:git:git@github.com:dropbox/dropbox-sdk-java.git</connection>
-        <developerConnection>scm:git:git@github.com:dropbox/dropbox-sdk-java.git</developerConnection>
-        <url>https://github.com/dropbox/dropbox-sdk-java</url>
+        <connection>scm:git:git@github.com:ranapnea/dropbox-sdk-java.git</connection>
+        <developerConnection>scm:git:git@github.com:ranapnea/dropbox-sdk-java.git</developerConnection>
+        <url>https://github.com/ranapnea/dropbox-sdk-java</url>
     </scm>
 
     <licenses>

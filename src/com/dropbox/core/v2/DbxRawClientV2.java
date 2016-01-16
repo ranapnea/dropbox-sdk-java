@@ -84,7 +84,7 @@ public class DbxRawClientV2 {
                 out.write("null".getBytes("UTF-8"));
             }
             byte[] body = out.toByteArray();
-            ArrayList<HttpRequestor.Header> headers = DbxRequestUtil.addAuthHeader(null, accessToken);
+            ArrayList<HttpRequestor.Header> headers = accessToken==null? new ArrayList<HttpRequestor.Header>() : DbxRequestUtil.addAuthHeader(null, accessToken);
             headers.add(new HttpRequestor.Header("Content-Type", "application/json; charset=utf-8"));
             HttpRequestor.Response response = DbxRequestUtil.startPostRaw(requestConfig, host, path, body, headers);
             if (response.statusCode == 200) {

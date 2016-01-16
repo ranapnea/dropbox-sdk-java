@@ -7676,7 +7676,7 @@ public final class DbxFiles {
     {
         try {
             return DbxRawClientV2.rpcStyle(client.getRequestConfig(),
-                                           client.getAccessToken(),
+                                           null,
                                            client.getHost().notify,
                                            "2-beta-2/files/list_folder/longpoll",
                                            arg,
